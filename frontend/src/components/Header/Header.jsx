@@ -1,9 +1,10 @@
 import React from 'react'
 import './Header.css'
+import headerImage from '../../assets/header_img.png' // Adjusted the path
 
 const Header = () => {
     return (
-        <div className='header'>
+        <div className='header' style={{ backgroundImage: `url(${headerImage})` }}>
             <div className="header-contents">
                 <h2>Your Food,</h2>
                 <h2>Your Way,</h2>
