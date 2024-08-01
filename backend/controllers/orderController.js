@@ -9,7 +9,7 @@ const PHP_TO_GBP_CONVERSION_RATE = 0.013; // Example conversion rate
 
 // placing user order from frontend
 const placeOrder = async (req, res) => {
-    const frontend_url = "http://localhost:5174"; // Your frontend URL
+    const frontend_url = "https://gatbite-food-delivery.onrender.com"; // Your frontend URL
 
     try {
         const newOrder = new orderModel({
