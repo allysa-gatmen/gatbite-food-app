@@ -5,6 +5,7 @@ export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
 
+    const url = "https://gatbite-app-backend.onrender.com"
     const [cartItems, setCartItems] = useState({})
     const url = "http://localhost:4000"
     const [token, setToken] = useState("")
